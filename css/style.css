@@ -1,9 +1,30 @@
 body{
      font-family: 'Lato', sans-serif; 
+     max-width: 1200px;
+     background-color: #143640;
 }
 
-header{
+.img_container{
+	position: relative; 
+	left: 0; 
+	top: 0;
+	max-height:500px;
+	max-width:1200px;
+}
+.background{
+	position: relative; 
+	top: 0; 
+	left: 0;
+	width:100%;
+	z-index: 0;
+}
 
+.profile{
+	position: relative; 
+	z-index: 1;
+	max-width: 100px;
+	margin: 0 auto;
+	border-radius: 50px;
 }
 
 
