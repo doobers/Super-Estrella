@@ -8,7 +8,6 @@ body{
 header{
 	background-color: #ED4D4E;
 	padding-top: 20px;
-	padding-bottom: 20px;
 	color: #dcddcd;
 }
 
@@ -21,10 +20,39 @@ header{
 }
 
 header h1{
-	padding-top: 20px;
+	margin-top: 20px;
 	text-align: center;
-	font-size: 22px;
+	font-size: 24px;
+	/*margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border: 2px solid #dcddcd;
+	border-radius: 5px;
+	max-width: 250px; */
 }
+
+header nav{
+	margin-top: 10px;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px;
+	font-weight: bold;
+	border-radius: 10px;
+	border: solid 1px #143640;
+	font-size: 12px;
+}
+
+header nav a{
+	color: #ED4D4E;
+	background-color: #dcddcd;
+	margin-bottom: 10px;
+}
+
+
 
 main{
 	margin-top: 20px;
@@ -33,13 +61,14 @@ main{
 	width: 70%;
 	border: 1px solid #dcddcd;
 	border-radius: 5px;
-	padding: 10px;
+	padding-bottom: 20px;
+	
 }
 
 main article{
 	color: #dcddcd;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 article h2{
@@ -47,7 +76,8 @@ article h2{
 	font-size: 18px;
 	font-weight: bold;
 	text-decoration: underline;
-	padding-bottom: 10px;
+	padding-bottom: 15px;
+	padding-top: 20px;
 }
 
 article hr{
@@ -66,14 +96,34 @@ article hr{
 }
 
 article p{
+	line-height: 115%;
 }
 
 article ol li{
-	padding-bottom: 15px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+article a{
+	margin-top: 15px;
+	color: #dcddcd;
+	background-color: #ED4D4E;
+	font-size: 18px;
+	font-weight: normal;
+	text-align: center;
+	display: block;
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 
 .listHead{
 	font-weight:bold;
+}
+
+.thank_you_article{
+	text-align: center;
 }
 
 
