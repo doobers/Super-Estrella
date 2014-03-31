@@ -1,5 +1,9 @@
 body{
      font-family: 'Lato', sans-serif; 
+<<<<<<< HEAD
+=======
+     max-width: 100%;
+>>>>>>> FETCH_HEAD
      background-color: #143640;
      padding-bottom: 20px;
 }
@@ -42,6 +46,7 @@ main{
 	margin-left: auto;
 	margin-right: auto;
 	width: 70%;
+	max-width: 800px;
 	border: 1px solid #dcddcd;
 	border-radius: 5px;
 	padding-bottom: 20px;
