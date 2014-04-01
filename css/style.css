@@ -6,8 +6,7 @@ body{
 
 
 header img{
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
 	width:100%;
 	margin-bottom: -2px;
 }
@@ -39,9 +38,7 @@ header nav a{
 
 main{
 	max-width: 1200px;
-	margin-top: 20px;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 20px auto 0;
 	width: 70%;
 	border: 1px solid #dcddcd;
 	border-radius: 5px;
@@ -52,8 +49,7 @@ main{
 
 main article{
 	color: #dcddcd;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding: 0 15px;
 }
 
 article h2{
@@ -67,8 +63,7 @@ article h2{
 
 article hr{
 	width: 25%;
-	margin-left:auto;
-	margin-right: auto;	
+	margin: 0 auto;	
 }
 
 .hr1{
@@ -98,8 +93,7 @@ article a{
 	text-align: center;
 	display: block;
 	width: 100px;
-	margin-left: auto;
-	margin-right: auto;
+	margin:0 auto;
 	letter-spacing: 1px;
 
 }
