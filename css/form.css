@@ -4,7 +4,17 @@ body{
      padding-bottom: 20px;
 }
 
+.ss-form-title{
 
+}
+
+header{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	background-color: #ED4D4E;
+	color: #dcddcd;
+}
 
 main{
 	margin-top: 20px;
