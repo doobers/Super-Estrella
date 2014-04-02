@@ -1,19 +1,24 @@
 body{
-     font-family: 'Lato', sans-serif; 
-     background-color: #143640;
+     font-family: "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif;
+     background-color: white;
      padding-bottom: 20px;
 }
 
 .ss-form-title{
-
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
 }
 
 header{
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	text-align: center;
-	background-color: #ED4D4E;
-	color: #dcddcd;
+	background-color: white;
+	color: #333332;
+	border-bottom: 1px solid #333332;
+	margin-bottom: 10px;
 }
 
 main{
@@ -21,15 +26,18 @@ main{
 	margin: 0 auto;
 	width: 70%;
 	min-width: 380px;
-	border: 1px solid #dcddcd;
 	border-radius: 5px;
 	padding-bottom: 20px;
-	color: #dcddcd;
+	color: #333332;
 	
 }
 
 main article{
-	color: #dcddcd;
+	line-height: 115%;
+	text-align: justify;
+	letter-spacing: .01rem;
+	font-weight: 400;
+	line-height: 1.2;
 	padding-left: 20px;
 	padding-right: 20px;
 }
@@ -43,4 +51,8 @@ main article{
 
 #ss-submit{
 	margin-top: 20px;
+}
+
+.ss-edit-link{
+	color: white;
 }

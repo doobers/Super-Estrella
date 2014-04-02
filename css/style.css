@@ -1,64 +1,65 @@
 body{
-     font-family: 'Lato', sans-serif; 
-     background-color: #143640;
-     padding-bottom: 20px;
+     font-family: "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif;
+     background-color: white;
 }
+
 
 
 header img{
 	margin: 0 auto;
+	margin-bottom: -3px;
 	width:100%;
-	margin-bottom: -2px;
 }
 
 
 header nav{
 	padding-top: 10px;
 	text-align: center;
-	background-color: #ED4D4E;
+	white;
 }
 
 a{
 	text-decoration: none;
 	display: inline-block;
 	padding: 10px;
-	border: solid 1px #143640;
 	font-size: 14px;
 	letter-spacing: .5px;
 	font-size: 16px;
+	font-family: "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif;
+	color: #333332;
+	text-decoration: underline;
 }
 
-header nav a{
+/** header nav a{
 	color: #ED4D4E;
 	background-color: #dcddcd;
 	padding-bottom: 10px;
-}
+}**/
 
 
 
 main{
 	max-width: 1200px;
-	margin: 20px auto 0;
+	margin: 0 auto;
+	margin-top: 20px;
 	width: 70%;
-	border: 1px solid #dcddcd;
-	border-radius: 5px;
 	padding-bottom: 20px;
 }
 
 
-
-main article{
-	color: #dcddcd;
+article{
+	color: #333332;
 	padding: 0 15px;
+	font-family: "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif;
 }
 
 article h2{
 	text-align: center;
-	font-size: 18px;
+	font-size: 32px;
 	font-weight: bold;
-	text-decoration: underline;
 	padding-bottom: 15px;
 	padding-top: 20px;
+	font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
 }
 
 article hr{
@@ -66,46 +67,68 @@ article hr{
 	margin: 0 auto;	
 }
 
-.hr1{
-	margin-top: 15px; 
-	margin-bottom: 15px;
-}
-
-.hr2{
-	margin-bottom: 15px;
-}
 
 article p{
 	line-height: 115%;
+	text-align: justify;
+	letter-spacing: .01rem;
+	font-weight: 400;
+	line-height: 1.2;
+
+}
+
+article ol{
+	margin-top: 5px;
+	margin-bottom: 10px;
 }
 
 article ol li{
-	padding-bottom: 10px;
-	text-align: center;
-}
-
-article a{
-	margin-top: 15px;
-	color: #dcddcd;
-	background-color: #ED4D4E;
-	font-size: 18px;
-	font-weight: normal;
-	text-align: center;
-	display: block;
-	width: 100px;
-	margin:0 auto;
-	letter-spacing: 1px;
+	padding-bottom: 5px;
 
 }
+
 
 .listHead{
 	font-weight:bold;
+	font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
 }
+
+
+footer{
+	width: 100%;
+	background-color: #f9f9f9;
+	padding: 20px 0 100px;
+	border-top: 1px solid #f2f2f0;
+	margin: 20px 0 0;
+}
+
+footer section{
+	width: 70%;
+	margin: 0 auto;
+}
+
+
+footer a{
+	color: white;
+	background-color: rgb( 221, 0, 23 );
+	font-size: 22px;
+	font-weight: normal;
+	display: block;
+	text-align: center;
+	width: 125px;
+	letter-spacing: 1px;
+	margin: 40px auto 0;
+	border-radius: 10px;
+	border: none;
+	text-decoration: none;
+ }
+ 
 
 .thank_you_article{
 	text-align: center;
 }
 
-
-
+.thank_you_article h2{
+	margin-bottom: 10px;
+}
 
