@@ -8,7 +8,7 @@ body{
 
 header{
 	background-color: white;
-	background-image:url("../photos/red bunting 3.png");
+	background-image:url("../photos/blue stripe bunting.png");
 	background-size: 100% 100%;
 	position: fixed;
 	top: 0;
@@ -47,7 +47,7 @@ a{
 article{
 	color: #333332;
 	padding: 0 15px;
-	line-height: 150%;
+	line-height: 160%;
 }
 
 article h2{
@@ -70,46 +70,33 @@ article ol{
 }
 
 article ol li{
-	margin: 0 0 10px 0;
+	margin: 0 0 20px 0;
+	text-align: center;
 
 }
 
-
 .listHead{
-	font-weight:bold;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	text-decoration: underline;
 }
 
 
 footer{
 	width: 100%;
 	background-color: #f9f9f9;
-	padding: 20px 0 75px;
+	padding: 60px 0 0px;
 	border-top: 1px solid #f2f2f0;
 	margin: 20px 0 0;
 }
 
-footer section{
-	width: 60%;
-	margin: 0 auto;
-	max-width: 800px;
-}
 
-
-footer a{
-	color: white;
-	background-color: rgb( 221, 0, 23 );
-	font-size: 22px;
-	font-weight: normal;
-	display: block;
+ footer p{
+	margin: 0 0 20px 0;
+	width:100%;
 	text-align: center;
-	width: 125px;
-	letter-spacing: 1px;
-	margin: 40px auto 0;
-	border-radius: 10px;
-	border: none;
-	text-decoration: none;
  }
- 
 
 .thank_you_article{
 	text-align: center;
