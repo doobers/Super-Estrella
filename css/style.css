@@ -34,7 +34,6 @@ header img{
 
 main{
 	margin: 350px auto 0px;
-	padding-bottom: 20px;
 }
 
 a{
@@ -46,14 +45,20 @@ a{
 	text-decoration: underline;
 }
 
+#nydeets1{
+	overflow: hidden;
+}
+
 .section_divider{
 	width: 50%;
 	float: left;
 }
 
 .section_divider iframe{
-	width: 100%;
+	width: 75%;
 	height: 300px;
+	margin: 0 auto;
+	display: block;
 }
 
 
@@ -114,7 +119,6 @@ footer{
 	background-color: #f9f9f9;
 	padding: 60px 0 0px;
 	border-top: 1px solid #f2f2f0;
-	margin: 20px 0 0;
 }
 
 
