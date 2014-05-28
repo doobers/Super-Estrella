@@ -2,65 +2,123 @@ body{
      font-family: 'Raleway', sans-serif;
      background-color: white;
      min-width: 800px;
+     max-width: 1280px;
 }
 
 header{
 	background-color: white;
 	background-image:url("../photos/blue stripe bunting.png");
 	background-size: 100% 100%;
-	position: fixed;
-	top: 0;
-	z-index: 100;
 	width: 100%;
 	height: 300px;
-	min-width: 800px;
+	min-width: 768px;
 }
 
 header img{
 	height: 200px;
-	margin: 100px auto;
+	margin: 0 auto;
 	display: block;
+	padding: 40px 0 0 0 ;
 }
 
-#div_1{
-	margin: 300px 0 0 0;
-	padding: 0 0 50px 0;
+
+nav{
+	width: 20%;
+	text-align: center;
+	float: left;
+	padding: 25px 0 0 0;
 }
 
 .mainsection{
-	padding: 50px 0;
+	width: 79%;
+	padding: 25px 0;
 	border-bottom: 1px solid #f2f2f0;
+	border-left: 1px solid #f2f2f0;
+	overflow: hidden;
+	float: right;
 }
 
-main{
-	margin: 350px auto 0px;
-}
-
-a{
-	text-decoration: none;
-	display: inline-block;
-	letter-spacing: .5px;
-	font-size: 16px;
-	color: #333332;
-	text-decoration: underline;
-}
-
-#nydeets1{
+.indexsection{
+	padding: 25px 0;
+	border-bottom: 1px solid #f2f2f0;
 	overflow: hidden;
 }
 
-.section_divider{
-	width: 50%;
-	float: left;
+nav a, nav button{
+	text-decoration: none;
+	display: inline-block;
+	letter-spacing: .5px;
+	font-size: 14px;
+	padding: 10px;
+	background: white;
+	color: black;
+	border: solid 3px black;
+	margin: 5px auto;
+	width: 120px;
+	text-align: center;
 }
 
-.section_divider iframe{
-	width: 75%;
-	height: 300px;
+nav button{
+	width: 146px;
+}
+
+#navlinks{
+	text-align: center;
+}
+
+#navlinks a{
+	text-decoration: none;
+	display: inline-block;
+	letter-spacing: .5px;
+	font-size: 24px;
+	padding: 10px;
+	background: white;
+	color: black;
+	border: solid 3px black;
+	margin: 0 5px;
+	width: 120px;
+	text-align: center;	
+}
+
+#navlinks a:hover, nav a:hover, nav button:hover{
+	background: black;
+	color: white;
+}
+
+
+#devondeets1 .section_image{
+	height: 400px;
 	margin: 0 auto;
 	display: block;
 }
 
+.section_divider{
+	width: 100%;
+	float: left;
+	margin: 0 0 20px 0;
+}
+
+.section_divider iframe{
+	width: 75%;
+	height: 400px;
+	margin: 0 auto;
+	display: block;
+}
+
+.main_section_button{
+	margin: 425px auto 0;
+	padding: 15px;
+	background: white;
+	color: black;
+	font-size: 100%;
+	border: solid 3px black;
+	display: block;
+}
+
+.main_section_button:hover{
+	background: black;
+	color: white;
+}
 
 article{
 	width: 60%;
@@ -68,6 +126,7 @@ article{
 	color: #333332;
 	padding: 0 15px;
 	line-height: 160%;
+	text-align: justify;
 }
 
 .section_divider article{
@@ -105,6 +164,14 @@ article ol li{
 
 }
 
+article a{
+	color: #333332;
+}
+
+article a:hover{
+	color: red;
+}
+
 .listHead{
 	font-weight: bold;
 	display: block;
@@ -112,11 +179,15 @@ article ol li{
 	text-decoration: underline;
 }
 
+.italic{
+	font-style: italic;
+}
+
 
 footer{
 	clear: both;
 	width: 100%;
-	background-color: #f9f9f9;
+	background: #f9f9f9;
 	padding: 60px 0 0px;
 	border-top: 1px solid #f2f2f0;
 }
@@ -132,3 +203,47 @@ footer{
 {
     opacity:0;
 }
+
+.hidden_mainsection{
+	display: none;
+}
+
+.FixToTop{
+	position: fixed;
+	top: 0;
+}
+
+@media screen and (max-width: 768px){
+	.section_divider{
+		width: 100%;
+	}
+	.section_divider article{
+		width: 60%;
+	}
+
+	.section_divider iframe{
+	width: 60%;
+	}
+
+
+	}
+
+
+
+/*nav button{
+	background: white;
+	width: 100px;
+	padding: 20px 0 20px 0;
+	color: black;
+	text-align: center;
+	display: inline-block;
+	border: solid 2px black;
+} */
+
+/*.anchor{
+   display:block;
+   height:300px; /* this is the height of your header */
+/*   margin-top:-300px; /* this is again negative value of the height of your header */
+/*   visibility:hidden;
+}*/
+
