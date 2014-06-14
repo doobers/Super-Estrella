@@ -44,7 +44,7 @@ nav{
 	overflow: hidden;
 }
 
-nav a, nav button{
+#navlinks a, nav a, nav button{
 	text-decoration: none;
 	display: inline-block;
 	letter-spacing: .5px;
@@ -64,20 +64,6 @@ nav button{
 
 #navlinks{
 	text-align: center;
-}
-
-#navlinks a{
-	text-decoration: none;
-	display: inline-block;
-	letter-spacing: .5px;
-	font-size: 24px;
-	padding: 10px;
-	background: white;
-	color: black;
-	border: solid 3px black;
-	margin: 0 5px;
-	width: 120px;
-	text-align: center;	
 }
 
 #navlinks a:hover, nav a:hover, nav button:hover{
@@ -181,6 +167,16 @@ article a:hover{
 
 .italic{
 	font-style: italic;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+#devonScheduleDetails ul{
+	
+	width: 350px;
+	margin: 10px auto 0;
 }
 
 

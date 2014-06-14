@@ -17,8 +17,8 @@ $(document).ready(function() {
     $.scrollTo('#devonLocalAreaDetails', {duration:1000});
     });
 
-    $('#devonTheMainEventButton').on('click', function() {
-    $.scrollTo('#devonTheMainEventDetails', {duration:1000});
+    $('#devonScheduleButton').on('click', function() {
+    $.scrollTo('#devonScheduleDetails', {duration:1000});
     });
 
 
