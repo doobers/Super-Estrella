@@ -24,6 +24,7 @@ header img{
 
 nav{
 	width: 20%;
+	max-width: 255px;
 	text-align: center;
 	float: left;
 	padding: 25px 0 0 0;
@@ -45,6 +46,7 @@ nav{
 }
 
 #navlinks a, nav a, nav button{
+	clear: both;
 	text-decoration: none;
 	display: inline-block;
 	letter-spacing: .5px;
