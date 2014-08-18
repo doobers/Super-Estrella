@@ -21,6 +21,10 @@ $(document).ready(function() {
     $.scrollTo('#devonScheduleDetails', {duration:1000});
     });
 
+    $('#devonGiftsButton').on('click', function() {
+    $.scrollTo('#devonGiftsDetails', {duration:1000});
+    });
+
 
    /*$('#devondeetsbutton').on('click', function() {
         $('#devondeets2').slideDown();
