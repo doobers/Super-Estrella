@@ -1,5 +1,7 @@
 $(document).ready(function() {
     
+    /* Devon button listeners */
+
     $('#devonVenueButton').on('click', function() {
     $.scrollTo('#devonVenueDetails', {duration:1000});
     });
@@ -23,6 +25,12 @@ $(document).ready(function() {
 
     $('#devonGiftsButton').on('click', function() {
     $.scrollTo('#devonGiftsDetails', {duration:1000});
+    });
+
+    /* NY button listeners */
+
+    $('#nyGiftsButton').on('click', function() {
+    $.scrollTo('#nyGiftsDetails', {duration:1000});
     });
 
 
