@@ -33,6 +33,10 @@ $(document).ready(function() {
     $.scrollTo('#nyGiftsDetails', {duration:1000});
     });
 
+    $('#nyScheduleButton').on('click', function() {
+    $.scrollTo('#nyScheduleDetails', {duration:1000});
+    });
+
 
    /*$('#devondeetsbutton').on('click', function() {
         $('#devondeets2').slideDown();
